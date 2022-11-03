@@ -1,0 +1,162 @@
+{
+  "data": {
+    "type": "user",
+    "id": "3",
+    "attributes": {
+      "connections_pending": [
+        {
+          "id": "4",
+          "name": "Tick Neets",
+          "about": "I love to teach piano! I'd love to start a band. Connect with me please :)",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365009-63810454-9815-479c-a0fe-e071f78833ea.png",
+          "instruments": [{ "name": "Piano", "id": "2" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Jazz", "id": "10" }]
+        },
+        {
+          "id": "10",
+          "name": "Beyonce",
+          "about": "I am Cory",
+          "picture_url": "brandyasjdlaj.jpg",
+          "instruments": [{ "name": "Piano", "id": "2" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rock", "id": "2" }]
+        },
+        {
+          "id": "2",
+          "name": "Cory",
+          "about": "I am Cory",
+          "picture_url": "brandyasjdlaj.jpg",
+          "instruments": [{ "name": "Piano", "id": "2" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rap", "id": "6" }]
+        }
+      ],
+      "requests_pending": [],
+      "connections": [
+        {
+          "id": "5",
+          "name": "Rwendolyn Guiz",
+          "display_email": "RwendolynGuiz@gmail.com",
+          "about": "Banging drums is my go to stress reliever.",
+          "zipcode": "80014",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365030-6b898eda-506d-44bb-8824-7614417c6922.png",
+          "instruments": [
+            { "name": "Piano", "id": "2" },
+            { "name": "Cowbell", "id": "8" }
+          ],
+          "needs_instruments": [],
+          "genres": [
+            { "name": "Rock", "id": "2" },
+            { "name": "Rap", "id": "6" }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Bichael Monini",
+          "display_email": "BichaelMonini@gmail.com",
+          "about": "Music is my life </3",
+          "zipcode": "80014",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365068-74fc732a-eb69-4a45-826c-6ff39a0af77d.png",
+          "instruments": [{ "name": "Theremin", "id": "9" }],
+          "needs_instruments": [],
+          "genres": [
+            { "name": "Pop", "id": "1" },
+            { "name": "Rock", "id": "2" },
+            { "name": "Blues", "id": "3" },
+            { "name": "Electronic", "id": "4" },
+            { "name": "Jam", "id": "5" },
+            { "name": "Rap", "id": "6" },
+            { "name": "Indie", "id": "7" },
+            { "name": "Americana", "id": "8" },
+            { "name": "Folk", "id": "9" },
+            { "name": "Jazz", "id": "10" }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "sadfd",
+          "display_email": "adsfsd",
+          "about": "sdfsd",
+          "zipcode": "80202",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197364981-2f242f95-a0b1-4bb0-b2e8-be6946e218cc.png",
+          "instruments": [{ "name": "Saxophone", "id": "10" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rock", "id": "2" }]
+        },
+        {
+          "id": "6",
+          "name": "Rmma Eussel",
+          "display_email": "RmmaEussel@gmail.com",
+          "about": "Let's jam soon! lol haha",
+          "zipcode": "80014",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365046-9401a054-9a38-4f8b-8097-de7feaeb6b0f.png",
+          "instruments": [{ "name": "Cowbell", "id": "8" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rock", "id": "2" }]
+        },
+        {
+          "id": "4",
+          "name": "Tick Neets",
+          "display_email": "TickNeets@gmail.com",
+          "about": "I love to teach piano! I'd love to start a band. Connect with me please :)",
+          "zipcode": "80014",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365009-63810454-9815-479c-a0fe-e071f78833ea.png",
+          "instruments": [{ "name": "Piano", "id": "2" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Jazz", "id": "10" }]
+        },
+        {
+          "id": "3",
+          "name": "sadfd",
+          "display_email": "adsfsd",
+          "about": "sdfsd",
+          "zipcode": "80202",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197364981-2f242f95-a0b1-4bb0-b2e8-be6946e218cc.png",
+          "instruments": [{ "name": "Saxophone", "id": "10" }],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rock", "id": "2" }]
+        },
+        {
+          "id": "9",
+          "name": "Bory Cethune",
+          "display_email": "BoryCethune@gmail.com",
+          "about": "!!!MOAR COWBELL!!!",
+          "zipcode": "80019",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365266-ac37398a-f168-4768-8476-5e36b9a068aa.png",
+          "instruments": [
+            { "name": "Piano", "id": "2" },
+            { "name": "Theremin", "id": "9" }
+          ],
+          "needs_instruments": [],
+          "genres": [{ "name": "Rock", "id": "2" }]
+        },
+        {
+          "id": "8",
+          "name": "Hared Jardinger",
+          "display_email": "HaredJardinger@gmail.com",
+          "about": "Classically trained baroque pianist who is baroque. :') I need some gigs y'all. ",
+          "zipcode": "80201",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197365099-0e35cd61-7448-4e62-9005-087404014c99.png",
+          "instruments": [
+            { "name": "Guitar", "id": "1" },
+            { "name": "Piano", "id": "2" },
+            { "name": "Drums", "id": "3" },
+            { "name": "Flute", "id": "4" },
+            { "name": "Clarinet", "id": "5" },
+            { "name": "Bass", "id": "6" },
+            { "name": "Triangle", "id": "7" },
+            { "name": "Cowbell", "id": "8" },
+            { "name": "Theremin", "id": "9" },
+            { "name": "Saxophone", "id": "10" }
+          ],
+          "needs_instruments": [],
+          "genres": [
+            { "name": "Rock", "id": "2" },
+            { "name": "Jazz", "id": "10" }
+          ]
+        }
+      ]
+    }
+  }
+}

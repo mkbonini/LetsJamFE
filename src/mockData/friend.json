@@ -1,0 +1,14 @@
+{
+  "id": "9",
+  "name": "Bory Cethune",
+  "display_email": "BoryCethune@gmail.com",
+  "about": "!!!MOAR COWBELL!!!",
+  "zipcode": "80019",
+  "picture_url": "https://user-images.githubusercontent.com/98188684/197365266-ac37398a-f168-4768-8476-5e36b9a068aa.png",
+  "instruments": [
+    { "name": "Piano", "id": "2" },
+    { "name": "Theremin", "id": "9" }
+  ],
+  "needs_instruments": [],
+  "genres": [{ "name": "Rock", "id": "2" }]
+}

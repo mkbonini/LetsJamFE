@@ -1,0 +1,26 @@
+{
+  "data": {
+      "type": "user",
+      "id": "3",
+      "attributes": {
+          "name": "sadfd",
+          "display_email": "adsfsd",
+          "about": "sdfsd",
+          "zipcode": "80202",
+          "picture_url": "https://user-images.githubusercontent.com/98188684/197364981-2f242f95-a0b1-4bb0-b2e8-be6946e218cc.png",
+          "instruments": [
+              {
+                  "id": "10",
+                  "name": "Saxophone"
+              }
+          ],
+          "needs_instruments": [],
+          "genres": [
+              {
+                  "id": "2",
+                  "name": "Rock"
+              }
+          ]
+      }
+  }
+}

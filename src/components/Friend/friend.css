@@ -1,0 +1,14 @@
+.friend-container{
+  max-height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.friend-avatar{
+  max-width: 200px;
+  margin: auto;
+}
+.friend-details{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile'
+import Friend from './components/Friend'
+import Instrument_flag from './components/Flags/InstrumentFlag'
+import user from './mockData/user.json'
+import friend from './mockData/friend.json'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <div className='side_bar'>
+        <Profile user={user}/>
+      </div>
+      <div className='content'>
+        <Friend friend={friend}/>
+        {/* <Instrument_flag /> */}
+      </div>
     </div>
   );
 }
