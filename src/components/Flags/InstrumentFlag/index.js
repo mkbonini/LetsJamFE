@@ -4,7 +4,7 @@ export default function InstrumentsFlag({instrument}) {
   const {name} = instrument;
   return(
     <div id='instrument_pointer' title='You Play'>
-      <p>{name}</p>
+      <p id='inner-text'>{name}</p>
     </div>
   );
 }

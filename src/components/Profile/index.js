@@ -1,4 +1,7 @@
 // import React, { useState } from 'react';
+import InstrumentsFlag from '../Flags/InstrumentFlag';
+import NeedsInstrumentsFlag from '../Flags/NeedsInstrumentFlag';
+import GenreFlag from '../Flags/GenreFlag';
 import './profile.css'
 
 export default function Profile({ user }) {
@@ -21,24 +24,23 @@ export default function Profile({ user }) {
         <h1>{name}</h1>
         <p>email: {display_email}</p>
         <p>ZIP code: {zipcode}</p>
-        <p>You Play: </p>
-        <ul>
-          {instruments.map((instrument) => (
-            <li> {instrument.name} </li>
-          ))}
-        </ul>
-        <p>You Need: </p>
-        <ul>
-          {needs_instruments.map((instrument) => (
-            <li> {instrument.name} </li>
-          ))}
-        </ul>
-        <p>Genres: </p>
-        <ul>
-          {genres.map((genre) => (
-            <li> {genre.name} </li>
-          ))}
-        </ul>
+        <div className='profile-flags'>
+          <div className='profile-flag-containers'>
+              {instruments.map((instrument) => (
+                <InstrumentsFlag instrument={instrument}/> 
+              ))}
+          </div>
+          <div className='profile-flag-containers'>
+              {needs_instruments.map((instrument) => (
+                <NeedsInstrumentsFlag instrument={instrument}/> 
+              ))}
+          </div>
+          <div className='profile-flag-containers'>
+              {genres.map((genre) => (
+                <GenreFlag genre={genre}/> 
+              ))}
+          </div>
+        </div>
       </div>
     </div>
   );

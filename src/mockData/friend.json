@@ -9,6 +9,9 @@
     { "name": "Piano", "id": "2" },
     { "name": "Theremin", "id": "9" }
   ],
-  "needs_instruments": [],
+  "needs_instruments": [
+    { "name": "Piano", "id": "2" },
+    { "name": "Guitar", "id": "9" }
+  ],
   "genres": [{ "name": "Rock", "id": "2" }]
 }

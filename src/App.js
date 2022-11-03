@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile'
 import Friend from './components/Friend'
-import Instrument_flag from './components/Flags/InstrumentFlag'
 import user from './mockData/user.json'
 import friend from './mockData/friend.json'
 
@@ -14,7 +13,6 @@ function App() {
       </div>
       <div className='content'>
         <Friend friend={friend}/>
-        {/* <Instrument_flag /> */}
       </div>
     </div>
   );

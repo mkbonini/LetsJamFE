@@ -21,25 +21,27 @@ export default function Friend({ friend }) {
     <div className="friend-container">
       <img className="friend-avatar" src={picture_url} />
       <div className="friend-details">
-        <div>
+        <div className='friend-contact'>
           <h1>{name}</h1>
           <p>email: {display_email}</p>
           <p>ZIP code: {zipcode}</p>
         </div>
-        <div>
-            {instruments.map((instrument) => (
-               <InstrumentsFlag instrument={instrument}/> 
-            ))}
-        </div>
-        <div>
-            {needs_instruments.map((instrument) => (
-              <NeedsInstrumentsFlag instrument={instrument}/> 
-            ))}
-        </div>
-        <div>
-            {genres.map((genre) => (
-              <GenreFlag genre={genre}/> 
-            ))}
+        <div className='friend-flags'>
+          <div className='friend-flag-containers'>
+              {instruments.map((instrument) => (
+                <InstrumentsFlag instrument={instrument}/> 
+              ))}
+          </div>
+          <div className='friend-flag-containers'>
+              {needs_instruments.map((instrument) => (
+                <NeedsInstrumentsFlag instrument={instrument}/> 
+              ))}
+          </div>
+          <div className='friend-flag-containers'>
+              {genres.map((genre) => (
+                <GenreFlag genre={genre}/> 
+              ))}
+          </div>
         </div>
       </div>
     </div>

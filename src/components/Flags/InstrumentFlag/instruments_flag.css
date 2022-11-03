@@ -1,9 +1,11 @@
 
 #instrument_pointer {
-  width: 200px;
+  width: 150px;
   height: 40px;
   position: relative;
-  background: lightblue;
+  background: #A8DADC;
+  display: flex;
+  margin-top: 5px;
 }
 #instrument_pointer:after {
   content: "";
@@ -12,9 +14,9 @@
   bottom: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid lightblue;
-  border-top: 20px solid white;
-  border-bottom: 20px solid white;
+  border-right: 20px solid #A8DADC;
+  border-top: 20px solid #457B9D;
+  border-bottom: 20px solid #457B9D;
 }
 #instrument_pointer:before {
   content: "";
@@ -23,7 +25,11 @@
   bottom: 0;
   width: 0;
   height: 0;
-  border-right: 20px solid white;
+  border-right: 20px solid #457B9D;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
+}
+
+#inner-text{
+  margin: auto;
 }
