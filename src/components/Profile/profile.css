@@ -11,3 +11,8 @@
 .details{
   text-align: center;
 }
+.profile-flags{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

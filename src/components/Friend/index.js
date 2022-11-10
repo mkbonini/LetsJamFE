@@ -2,6 +2,7 @@
 import InstrumentsFlag from '../Flags/InstrumentFlag';
 import NeedsInstrumentsFlag from '../Flags/NeedsInstrumentFlag';
 import GenreFlag from '../Flags/GenreFlag';
+import Flag from '../Flags/Flag'
 import './friend.css'
 
 export default function Friend({ friend }) {
@@ -29,17 +30,17 @@ export default function Friend({ friend }) {
         <div className='friend-flags'>
           <div className='friend-flag-containers'>
               {instruments.map((instrument) => (
-                <InstrumentsFlag instrument={instrument}/> 
+                <Flag input={instrument} flagColor={"#A8DADC"} backgroundColor={"#457B9D"}/> 
               ))}
           </div>
           <div className='friend-flag-containers'>
               {needs_instruments.map((instrument) => (
-                <NeedsInstrumentsFlag instrument={instrument}/> 
+                <Flag input={instrument} flagColor={"lightcoral"} backgroundColor={"#457B9D"}/>  
               ))}
           </div>
           <div className='friend-flag-containers'>
               {genres.map((genre) => (
-                <GenreFlag genre={genre}/> 
+                <Flag input={genre} flagColor={"lightgrey"} backgroundColor={"#457B9D"}/> 
               ))}
           </div>
         </div>
