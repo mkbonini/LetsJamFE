@@ -28,17 +28,17 @@ export default function Profile({ user }) {
         <div className='profile-flags'>
           <div className='profile-flag-containers'>
               {instruments.map((instrument) => (
-                <Flag input={instrument} flagColor={"#A8DADC"} backgroundColor={"#FFFFFF"}/> 
+                <Flag input={instrument} flagColor={"#A8DADC"} backgroundColor={"aliceblue"}/> 
               ))}
           </div>
           <div className='profile-flag-containers'>
               {needs_instruments.map((instrument) => (
-                <Flag input={instrument} flagColor={"lightcoral"} backgroundColor={"#FFFFFF"}/> 
+                <Flag input={instrument} flagColor={"lightcoral"} backgroundColor={"aliceblue"}/> 
               ))}
           </div>
           <div className='profile-flag-containers'>
               {genres.map((genre) => (
-                <Flag input={genre} flagColor={"lightgrey"} backgroundColor={"#FFFFFF"}/> 
+                <Flag input={genre} flagColor={"lightgrey"} backgroundColor={"aliceblue"}/> 
               ))}
           </div>
         </div>

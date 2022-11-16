@@ -5,6 +5,7 @@
   background-color: #457B9D;
   margin-left: 20px;
   padding: 5px 40px 5px 5px;
+  border-radius: 5px;
 }
 .friend-avatar{
   max-width: 200px;
